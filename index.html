@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Morgan | Senior Full-Stack Engineer & Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow Accents -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container">
+      <a href="#" class="brand-logo">
+        <span class="logo-mark">&lt;AM/&gt;</span>
+        <span class="logo-text">Alex Morgan</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section container">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>Available for Q1 / Q2 Projects & Consulting</span>
+        </div>
+        <h1 class="hero-title">
+          Architecting resilient systems and <span class="gradient-text">high-impact digital experiences</span>.
+        </h1>
+        <p class="hero-description">
+          Hey there! I'm <strong>Alex Morgan</strong>, a San Francisco-based Senior Full-Stack Engineer with 6+ years specializing in scalable backend architecture, fluid UI micro-interactions, and modern web applications.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Work</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-card-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="window-title">engineer-profile.ts</span>
+          </div>
+          <div class="profile-body">
+            <div class="avatar-container">
+              <div class="avatar-frame">
+                <!-- Illustrated SVG Avatar -->
+                <svg viewBox="0 0 120 120" class="avatar-svg">
+                  <defs>
+                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#6366f1"/>
+                      <stop offset="100%" stop-color="#06b6d4"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="60" cy="60" r="56" fill="#1e1e2d" stroke="url(#avatarGrad)" stroke-width="4"/>
+                  <circle cx="60" cy="48" r="22" fill="#f8fafc"/>
+                  <path d="M30 96 C 30 76, 44 72, 60 72 C 76 72, 90 76, 90 96 Z" fill="#6366f1"/>
+                  <circle cx="53" cy="46" r="3" fill="#1e293b"/>
+                  <circle cx="67" cy="46" r="3" fill="#1e293b"/>
+                  <path d="M54 56 Q 60 62 66 56" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="badge-role">Tech Lead</div>
+            </div>
+
+            <div class="code-snippet">
+              <p><span class="c-purple">const</span> <span class="c-blue">engineer</span> = {</p>
+              <p class="indent-1"><span class="c-teal">name</span>: <span class="c-orange">'Alex Morgan'</span>,</p>
+              <p class="indent-1"><span class="c-teal">location</span>: <span class="c-orange">'San Francisco, CA'</span>,</p>
+              <p class="indent-1"><span class="c-teal">focus</span>: [<span class="c-orange">'Distributed Systems'</span>, <span class="c-orange">'Web3'</span>, <span class="c-orange">'UX'</span>],</p>
+              <p class="indent-1"><span class="c-teal">currentStatus</span>: <span class="c-green">'Shipping cool stuff 🚀'</span></p>
+              <p>};</p>
+            </div>
+
+            <div class="floating-stat-box stat-top">
+              <span class="stat-number">99.98%</span>
+              <span class="stat-label">System Reliability</span>
+            </div>
+            <div class="floating-stat-box stat-bottom">
+              <span class="stat-number">12M+</span>
+              <span class="stat-label">Monthly Queries Handled</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Strip -->
+    <section class="metrics-section container">
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value">6+</div>
+          <div class="metric-title">Years of Experience</div>
+          <p class="metric-sub">Across hypergrowth startups & agency work</p>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">42+</div>
+          <div class="metric-title">Completed Projects</div>
+          <p class="metric-sub">From MVP launches to enterprise scale</p>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">18k+</div>
+          <div class="metric-title">GitHub Stars & Forks</div>
+          <p class="metric-sub">Active open source libraries contributor</p>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">100%</div>
+          <div class="metric-title">Client Satisfaction</div>
+          <p class="metric-sub">Dedicated to deadlines and clean craftsmanship</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section container">
+      <div class="section-badge">ABOUT ME</div>
+      <h2 class="section-heading">Bridging technical performance with delightful user experiences.</h2>
+      
+      <div class="about-grid">
+        <div class="about-narrative">
+          <p>
+            I love building products that sit right at the intersection of robust backend foundations and ultra-smooth human interfaces. Over the last six years, I have spearheaded engineering teams, modernized legacy infrastructures, and built web products used by millions worldwide.
+          </p>
+          <p>
+            My engineering philosophy centers around <em>simplicity, velocity, and observability</em>. I believe software should be fast to load, self-documenting, accessible by everyone, and designed to weather scaling challenges gracefully.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <div class="pillar-icon">⚡</div>
+              <h4>Performance First</h4>
+              <p>Optimizing web vitals, latency bottlenecks, and zero-jank 60fps responsive interfaces.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">🛡️</div>
+              <h4>Bulletproof Quality</h4>
+              <p>Type-safety, end-to-end integration testing, and clean modular architectural design.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">🎨</div>
+              <h4>Design Sensibility</h4>
+              <p>Deep appreciation for typography, aesthetic rhythm, spacing, and accessibility standards.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-aside">
+          <div class="card glass-card">
+            <h3 class="card-title">Quick Facts</h3>
+            <ul class="facts-list">
+              <li>
+                <span class="fact-label">Location:</span>
+                <span class="fact-value">San Francisco, CA (PST / UTC-8)</span>
+              </li>
+              <li>
+                <span class="fact-label">Education:</span>
+                <span class="fact-value">B.S. in Computer Science, UC Berkeley</span>
+              </li>
+              <li>
+                <span class="fact-label">Languages:</span>
+                <span class="fact-value">English (Native), Spanish (Fluent)</span>
+              </li>
+              <li>
+                <span class="fact-label">Favorite Stack:</span>
+                <span class="fact-value">TypeScript, Node.js, Next.js, Postgres</span>
+              </li>
+              <li>
+                <span class="fact-label">Hobbies:</span>
+                <span class="fact-value">Mechanical Keyboards, Cycling & Film Photography</span>
+              </li>
+            </ul>
+
+            <div class="resume-cta">
+              <a href="#contact" class="btn btn-outline full-width">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download Comprehensive Resume (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section container">
+      <div class="section-badge">TECH STACK & SKILLS</div>
+      <h2 class="section-heading">Tools and technologies I rely on to turn ideas into reality.</h2>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="cat-icon cat-frontend">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3>Frontend Development</h3>
+          </div>
+          <p class="category-desc">Crafting pixel-perfect, accessible, and reactive frontend experiences.</p>
+          <div class="skill-tags">
+            <span class="tag">HTML5 / Semantic Web</span>
+            <span class="tag">Modern CSS3 / SCSS</span>
+            <span class="tag">JavaScript (ESNext)</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">React & Next.js</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">WebGL / Three.js</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="cat-icon cat-backend">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+            </div>
+            <h3>Backend & Databases</h3>
+          </div>
+          <p class="category-desc">Architecting robust data models, real-time channels, and high-throughput microservices.</p>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express / Fastify</span>
+            <span class="tag">Python / FastAPI</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Redis & Memcached</span>
+            <span class="tag">GraphQL & REST APIs</span>
+            <span class="tag">Prisma ORM</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+
+        <!-- DevOps & Cloud -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="cat-icon cat-devops">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+            </div>
+            <h3>Cloud & DevOps</h3>
+          </div>
+          <p class="category-desc">Setting up bulletproof CI/CD pipelines and highly available distributed systems.</p>
+          <div class="skill-tags">
+            <span class="tag">Docker & Containerization</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">AWS (S3, ECS, Lambda)</span>
+            <span class="tag">Vercel & Railway</span>
+            <span class="tag">GitHub Actions CI/CD</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">Prometheus / Datadog</span>
+            <span class="tag">Cloudflare Workers</span>
+          </div>
+        </div>
+
+        <!-- Architecture & Methodologies -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="cat-icon cat-tools">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <h3>Architecture & Leadership</h3>
+          </div>
+          <p class="category-desc">Driving engineering standards, mentoring developers, and maintaining product alignment.</p>
+          <div class="skill-tags">
+            <span class="tag">System Design</span>
+            <span class="tag">Microfrontends</span>
+            <span class="tag">Agile / Scrum Sprint Lead</span>
+            <span class="tag">Design Systems</span>
+            <span class="tag">WCAG 2.1 Accessibility</span>
+            <span class="tag">Test-Driven Dev (Jest, Cypress)</span>
+            <span class="tag">Technical Writing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects-section container">
+      <div class="section-badge">PORTFOLIO</div>
+      <h2 class="section-heading">Featured Works & Flagship Creations</h2>
+      <p class="section-subtext">A selection of recent projects exploring real-time collaboration, financial tooling, and developer infrastructure.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-visual p-visual-1">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-graph">
+                  <div class="bar-col" style="height: 45%;"></div>
+                  <div class="bar-col" style="height: 70%;"></div>
+                  <div class="bar-col" style="height: 90%;"></div>
+                  <div class="bar-col" style="height: 60%;"></div>
+                  <div class="bar-col" style="height: 85%;"></div>
+                  <div class="bar-col active-col" style="height: 100%;"></div>
+                </div>
+                <div class="mockup-lines">
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-category">Full-Stack SaaS Platform</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3 class="project-title">AetherFlow — Realtime Observability Suite</h3>
+            <p class="project-summary">
+              A high-frequency log aggregation and tracing engine capable of streaming 200,000+ metrics/sec to customizable client dashboards with sub-50ms latency.
+            </p>
+            <div class="project-tech">
+              <span>TypeScript</span>
+              <span>Go</span>
+              <span>ClickHouse</span>
+              <span>React</span>
+              <span>WebSockets</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-btn">Live Preview ↗</a>
+              <a href="#" class="link-btn link-subtle">Case Study →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-visual p-visual-2">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content mockup-flex">
+                <div class="mockup-sidebar"></div>
+                <div class="mockup-main-area">
+                  <div class="mockup-card-tile"></div>
+                  <div class="mockup-card-tile"></div>
+                  <div class="mockup-card-tile"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-category">FinTech Application</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-title">NovaPay — Autonomous Treasury & Global Invoicing</h3>
+            <p class="project-summary">
+              Cross-border enterprise treasury portal supporting automated multi-currency hedge swaps, smart invoice reconciliation, and automated compliance auditing.
+            </p>
+            <div class="project-tech">
+              <span>Next.js</span>
+              <span>Tailwind CSS</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>Stripe API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-btn">Live Preview ↗</a>
+              <a href="#" class="link-btn link-subtle">GitHub Repository →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-visual p-visual-3">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content mockup-canvas">
+                <div class="canvas-node node-1">API Gateway</div>
+                <div class="canvas-arrow">⟶</div>
+                <div class="canvas-node node-2">Edge Worker</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-category">Developer Tooling & CLI</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-title">HyperDeploy — Zero-Config Edge Orchestration</h3>
+            <p class="project-summary">
+              Open source terminal utility and distribution layer for spinning up ephemeral test environments on edge compute networks under 3 seconds per branch.
+            </p>
+            <div class="project-tech">
+              <span>Rust</span>
+              <span>Docker</span>
+              <span>WebAssembly</span>
+              <span>Cloudflare</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-btn">Documentation ↗</a>
+              <a href="#" class="link-btn link-subtle">GitHub (4.2k ★) →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-visual p-visual-4">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-content mockup-canvas">
+                <div class="synth-circle"></div>
+                <div class="synth-wave">
+                  <span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-category">Generative Creative Tool</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-title">SpectraSynth — Spatial Audio Synthesizer in Browser</h3>
+            <p class="project-summary">
+              An interactive WebAudio synthesizer supporting generative chord sequences, spatial 3D audio reverberation, and real-time MIDI controller mapping.
+            </p>
+            <div class="project-tech">
+              <span>WebAudio API</span>
+              <span>Canvas 2D</span>
+              <span>TypeScript</span>
+              <span>CSS Modules</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-btn">Launch App ↗</a>
+              <a href="#" class="link-btn link-subtle">Source Code →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience & Career Timeline -->
+    <section id="experience" class="experience-section container">
+      <div class="section-badge">CAREER PATH</div>
+      <h2 class="section-heading">Work Experience & Leadership Milestones</h2>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Lead Full-Stack Engineer</h3>
+                <span class="company-name">PulseCore Systems • San Francisco, CA</span>
+              </div>
+              <span class="timeline-date">2024 — Present</span>
+            </div>
+            <p class="role-description">
+              Directing a squad of 8 engineers across frontend, backend, and site reliability. Spearheaded transition from monolithic services to an event-driven architecture, reducing compute bills by 34% while scaling to 15 million active transactions per day.
+            </p>
+            <div class="role-achievements">
+              <span>Next.js 15</span>
+              <span>Go Microservices</span>
+              <span>Kafka</span>
+              <span>PostgreSQL</span>
+              <span>Kubernetes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Senior Frontend Engineer</h3>
+                <span class="company-name">Vanguard Labs • Remote</span>
+              </div>
+              <span class="timeline-date">2022 — 2024</span>
+            </div>
+            <p class="role-description">
+              Redesigned core web application user workflows, cutting customer onboarding time from 12 minutes down to 3 minutes. Built an enterprise-grade component library adopted across 6 cross-functional digital teams.
+            </p>
+            <div class="role-achievements">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Design System</span>
+              <span>GraphQL</span>
+              <span>Storybook</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Software Engineer</h3>
+                <span class="company-name">Orbit Software Studio • Austin, TX</span>
+              </div>
+              <span class="timeline-date">2020 — 2022</span>
+            </div>
+            <p class="role-description">
+              Delivered custom web applications, bespoke eCommerce platforms, and custom RESTful backends for early-stage Y-Combinator startups and mid-market commerce brands.
+            </p>
+            <div class="role-achievements">
+              <span>JavaScript</span>
+              <span>Node.js / Express</span>
+              <span>MongoDB</span>
+              <span>Docker</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section container">
+      <div class="section-badge">ENDORSEMENTS</div>
+      <h2 class="section-heading">What collaborators say about working with me.</h2>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "Alex is one of the rare engineers who balances profound technical depth with genuine empathy for user experience. He led our platform rebuild on time and without a single regression."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar author-1">EL</div>
+            <div class="author-details">
+              <h4>Elena Lewis</h4>
+              <p>VP of Product at PulseCore</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "Rare talent! Alex transformed our fragmented design ideas into an incredibly fast, silky smooth web portal. Code reviews with him were a masterclass in clarity and best practices."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar author-2">MR</div>
+            <div class="author-details">
+              <h4>Marcus Reynolds</h4>
+              <p>Founder & CEO at Vanguard Labs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "If you need an engineer who can own a feature from database indexing down to button animations, Alex is the guy. Extraordinary work ethic and communication."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar author-3">SK</div>
+            <div class="author-details">
+              <h4>Sarah Kim</h4>
+              <p>Principal Architect at Orbit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container">
+      <div class="contact-box glass-card">
+        <div class="contact-header">
+          <div class="section-badge">GET IN TOUCH</div>
+          <h2 class="contact-title">Let’s build something extraordinary together.</h2>
+          <p class="contact-sub">
+            Whether you have an upcoming project, need technical consultation, or just want to chat about distributed systems and design, my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-columns">
+          <div class="contact-info-panel">
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h5>Email Directly</h5>
+                <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h5>Current Base</h5>
+                <p>San Francisco, CA (Open to Worldwide Remote)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <h5>Response Time</h5>
+                <p>Typically under 24 hours</p>
+              </div>
+            </div>
+
+            <div class="coffee-card">
+              <p>☕ <strong>Coffee chat in SF?</strong> I'm always up to meet fellow developers, founders, and designers around SoMa / Mission District.</p>
+            </div>
+          </div>
+
+          <!-- Dummy Contact Form (Pure HTML/CSS) -->
+          <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you! This is a demo portfolio. Your message has been simulated.');">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Project Type / Subject</label>
+              <select id="subject" name="subject">
+                <option value="consulting">Technical Advisory / Consulting</option>
+                <option value="full-time">Full-time Opportunity</option>
+                <option value="contract">Contract / MVP Build</option>
+                <option value="other">Just saying hello!</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your timeline, project goals, or questions..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit full-width">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-wrapper">
+    <div class="footer-content container">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo">
+          <span class="logo-mark">&lt;AM/&gt;</span>
+          <span class="logo-text">Alex Morgan</span>
+        </a>
+        <p class="footer-tagline">Building thoughtful, resilient software for the open web.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Alex Morgan. Built with pure HTML & CSS. All rights reserved.</p>
+        <p class="subtle-credit">Designed with precision & care.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
